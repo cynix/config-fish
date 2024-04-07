@@ -1,3 +1,4 @@
+completions/
 fish_variables
 local.fish
 *.local.fish
