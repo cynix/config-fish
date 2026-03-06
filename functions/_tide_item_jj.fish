@@ -3,7 +3,7 @@ function _tide_item_jj
     return 1
   end
 
-  jj --at-operation=@ debug snapshot
+  jj --at-operation=@ util snapshot
 
   set jj_branch (jj --ignore-working-copy --at-operation=@ --color=never --no-pager log --limit=1 --no-graph --revisions='
     coalesce(
