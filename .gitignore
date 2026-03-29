@@ -1,4 +1,4 @@
 completions/
-fish_variables
+fish_variables*
 local.fish
 *.local.fish
